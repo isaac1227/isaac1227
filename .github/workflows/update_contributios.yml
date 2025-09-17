@@ -2,19 +2,17 @@ name: Update Contributions
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # Se ejecuta todos los días a medianoche
-  workflow_dispatch:       # Permite ejecución manual
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Clonar el repositorio de perfil
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # 2️⃣ Fetch repositorios con PRs merged
       - name: Fetch contributed repos
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -24,7 +22,6 @@ jobs:
           | jq -r '.items[] | "- [\(.repository_url | split("/")[-1])](" + (.repository_url | gsub("api.github.com/repos"; "https://github.com")) + ") - \(.title)"' \
           | sort -u > repos_list.md
 
-      # 3️⃣ Actualizar README.md
       - name: Update README
         run: |
           echo "# My GitHub Contributions" > README.md
@@ -32,34 +29,10 @@ jobs:
           echo "This is a list of repositories where I contributed PRs that were merged:" >> README.md
           echo "" >> README.md
           cat repos_list.md >> README.md
-        
-      # Debug step to verify remote configuration
-      - name: Show remote before push
-        run: git remote -v
 
-      # Debug step to verify the token user
-      - name: Debug token user
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          curl -s -H "Authorization: token $GH_TOKEN" https://api.github.com/user
-
-      # 4️⃣ Commit y push de los cambios
       - name: Commit and push changes
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git config --local user.name "Isaac Marroqui"
-          git config --local user.email "i.marroquipenalva@um.es"
-          git add README.md
-          git commit -m "Update contributed repositories" || echo "No changes to commit"
-
-          # Cambiar remote usando la sintaxis que GitHub recomienda
-          git remote set-url origin https://$GH_TOKEN@github.com/isaac1227/isaac1227.git
-
-          # Debug para confirmar remote
-          git remote -v
-
-          git push origin main
-
-
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          branch: main
+          commit_message: "Update contributed repositories"
