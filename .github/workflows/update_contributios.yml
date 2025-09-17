@@ -32,17 +32,19 @@ jobs:
           echo "This is a list of repositories where I contributed PRs that were merged:" >> README.md
           echo "" >> README.md
           cat repos_list.md >> README.md
-
+        
+      # Debug step to verify remote configuration
       - name: Show remote before push
         run: git remote -v
 
+      # Debug step to verify the token user
       - name: Debug token user
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           curl -s -H "Authorization: token $GH_TOKEN" https://api.github.com/user
 
-
+      # 4️⃣ Commit y push de los cambios
       - name: Commit and push changes
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -52,9 +54,12 @@ jobs:
           git add README.md
           git commit -m "Update contributed repositories" || echo "No changes to commit"
 
-          # 🔑 Cambiar remote para usar tu token
-          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/isaac1227/isaac1227.git
-          git remote -v   # Debug para confirmar que se actualizó
+          # Cambiar remote usando la sintaxis que GitHub recomienda
+          git remote set-url origin https://$GH_TOKEN@github.com/isaac1227/isaac1227.git
+
+          # Debug para confirmar remote
+          git remote -v
 
           git push origin main
+
 
