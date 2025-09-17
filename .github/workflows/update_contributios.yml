@@ -15,9 +15,9 @@ jobs:
 
       - name: Fetch contributed repos
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          curl -s -H "Authorization: token $GH_TOKEN" \
           "https://api.github.com/users/${{ github.actor }}/repos?type=all&sort=updated" \
           | jq -r '.[] | select(.fork == true) | "- [\(.name)](\(.html_url))"' > repos_list.md
 
@@ -29,9 +29,13 @@ jobs:
           cat repos_list.md >> README.md
 
       - name: Commit and push changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           git config --local user.name "Isaac Marroqui"
           git config --local user.email "i.marroquipenalva@um.es"
           git add README.md
           git commit -m "Update contributed repositories" || echo "No changes to commit"
-          git push
+          # Redefinir remote para usar el token
+          git remote set-url origin https://$GH_TOKEN@github.com/isaac1227/isaac1227.git
+          git push origin main
