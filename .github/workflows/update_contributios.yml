@@ -1,0 +1,37 @@
+name: Update Contributions
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # Se ejecuta todos los días a medianoche
+  workflow_dispatch:       # Permite ejecución manual
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch contributed repos
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          curl -s -H "Authorization: token $GITHUB_TOKEN" \
+          "https://api.github.com/users/${{ github.actor }}/repos?type=all&sort=updated" \
+          | jq -r '.[] | select(.fork == true) | "- [\(.name)](\(.html_url))"' > repos_list.md
+
+      - name: Update README
+        run: |
+          echo "# My GitHub Contributions" > README.md
+          echo "" >> README.md
+          echo "This is a list of repositories I contributed to:" >> README.md
+          cat repos_list.md >> README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.name "github-actions"
+          git config --local user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update contributed repositories" || echo "No changes to commit"
+          git push
