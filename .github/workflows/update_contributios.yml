@@ -36,3 +36,4 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           branch: main
           commit_message: "Update contributed repositories"
+          repository: isaac1227/contribuciones
