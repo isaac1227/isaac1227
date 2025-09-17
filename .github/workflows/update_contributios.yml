@@ -36,7 +36,6 @@ jobs:
       - name: Show remote before push
         run: git remote -v
 
-      # 4️⃣ Commit y push usando token personal
       - name: Commit and push changes
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -46,6 +45,9 @@ jobs:
           git add README.md
           git commit -m "Update contributed repositories" || echo "No changes to commit"
 
-          # 🔑 Aquí está la diferencia: usar tu GH_TOKEN en el remote
+          # 🔑 Cambiar remote para usar tu token
           git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/isaac1227/isaac1227.git
+          git remote -v   # Debug para confirmar que se actualizó
+
           git push origin main
+
