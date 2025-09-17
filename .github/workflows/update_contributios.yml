@@ -10,24 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Clonar el repositorio de perfil
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 2️⃣ Fetch repositorios donde has hecho PRs aceptadas
       - name: Fetch contributed repos
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
+          # Obtener todos los repos donde eres colaborador y hay PRs aceptadas
           curl -s -H "Authorization: token $GH_TOKEN" \
-          "https://api.github.com/users/${{ github.actor }}/repos?type=all&sort=updated" \
-          | jq -r '.[] | select(.fork == true) | "- [\(.name)](\(.html_url))"' > repos_list.md
+          "https://api.github.com/search/issues?q=author:${{ github.actor }}+type:pr+is:merged" \
+          | jq -r '.items[] | "- [\(.repository_url | split("/")[-1])](" + (.repository_url | gsub("api.github.com/repos"; "https://github.com")) + ") - \(.title)"' \
+          | sort -u > repos_list.md
 
+      # 3️⃣ Actualizar README.md
       - name: Update README
         run: |
           echo "# My GitHub Contributions" > README.md
           echo "" >> README.md
-          echo "This is a list of repositories I contributed to:" >> README.md
+          echo "This is a list of repositories where I contributed PRs that were merged:" >> README.md
+          echo "" >> README.md
           cat repos_list.md >> README.md
 
+      # 4️⃣ Commit y push usando token seguro
       - name: Commit and push changes
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -36,6 +43,6 @@ jobs:
           git config --local user.email "i.marroquipenalva@um.es"
           git add README.md
           git commit -m "Update contributed repositories" || echo "No changes to commit"
-          # Redefinir remote para usar el token
+          # Redefinir remote con token seguro
           git remote set-url origin https://$GH_TOKEN@github.com/isaac1227/isaac1227.git
           git push origin main
