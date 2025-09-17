@@ -30,8 +30,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "github-actions@github.com"
+          git config --local user.name "Isaac Marroqui"
+          git config --local user.email "i.marroquipenalva@um.es"
           git add README.md
           git commit -m "Update contributed repositories" || echo "No changes to commit"
           git push
