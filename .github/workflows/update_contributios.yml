@@ -36,6 +36,13 @@ jobs:
       - name: Show remote before push
         run: git remote -v
 
+      - name: Debug token user
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          curl -s -H "Authorization: token $GH_TOKEN" https://api.github.com/user
+
+
       - name: Commit and push changes
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
