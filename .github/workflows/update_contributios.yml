@@ -14,12 +14,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # 2️⃣ Fetch repositorios donde has hecho PRs aceptadas
+      # 2️⃣ Fetch repositorios con PRs merged
       - name: Fetch contributed repos
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          # Obtener todos los repos donde eres colaborador y hay PRs aceptadas
           curl -s -H "Authorization: token $GH_TOKEN" \
           "https://api.github.com/search/issues?q=author:${{ github.actor }}+type:pr+is:merged" \
           | jq -r '.items[] | "- [\(.repository_url | split("/")[-1])](" + (.repository_url | gsub("api.github.com/repos"; "https://github.com")) + ") - \(.title)"' \
@@ -34,7 +33,7 @@ jobs:
           echo "" >> README.md
           cat repos_list.md >> README.md
 
-      # 4️⃣ Commit y push usando token seguro
+      # 4️⃣ Commit y push usando token personal
       - name: Commit and push changes
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -43,6 +42,7 @@ jobs:
           git config --local user.email "i.marroquipenalva@um.es"
           git add README.md
           git commit -m "Update contributed repositories" || echo "No changes to commit"
-          # Redefinir remote con token seguro
-          git remote set-url origin https://$GH_TOKEN@github.com/isaac1227/isaac1227.git
+
+          # 🔑 Aquí está la diferencia: usar tu GH_TOKEN en el remote
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/isaac1227/isaac1227.git
           git push origin main
