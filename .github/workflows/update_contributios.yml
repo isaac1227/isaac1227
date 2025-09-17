@@ -33,6 +33,9 @@ jobs:
           echo "" >> README.md
           cat repos_list.md >> README.md
 
+      - name: Show remote before push
+        run: git remote -v
+
       # 4️⃣ Commit y push usando token personal
       - name: Commit and push changes
         env:
