@@ -1,7 +1,7 @@
 # Isaac1227
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0f172a,55:2563eb,100:14b8a6&text=Isaac%20%7C%20Ingeniero%20de%20Software&fontColor=ffffff&fontAlignY=38&desc=Backend%20%7C%20Sistemas%20Distribuidos%20%7C%20Aprendizaje%20Federado&descAlignY=58&animation=fadeIn" alt="Banner profesional de Isaac como ingeniero de software" />
+  <img src="/screenshots/LinkedIn.png" alt="Banner profesional de Isaac como ingeniero de software" />
 </p>
 
 <p align="center">
@@ -21,9 +21,9 @@ Mi linea tecnica actual combina plataformas backend, diseno seguro de servicios 
 
 ## Stack Tecnologico
 
-| Backend | Frontend | Datos | DevOps y Calidad |
-| --- | --- | --- | --- |
-| Python, FastAPI, NestJS | React, JavaScript | PostgreSQL, SQLite, MongoDB | Docker, GitHub Actions, CI/CD |
+| Backend                 | Frontend                          | Datos                                     | DevOps y Calidad                            |
+| ----------------------- | --------------------------------- | ----------------------------------------- | ------------------------------------------- |
+| Python, FastAPI, NestJS | React, JavaScript                 | PostgreSQL, SQLite, MongoDB               | Docker, GitHub Actions, CI/CD               |
 | APIs REST, JWT, OpenAPI | Interfaces basadas en componentes | Diseno de esquemas, capas de persistencia | Tests automatizados, entornos reproducibles |
 
 <p>
@@ -164,10 +164,14 @@ python3 -m compileall backend tests
 
 ## Actividad en GitHub
 
-<p align="center">
-  <img height="165" alt="Estadisticas de GitHub" src="https://github-readme-stats.vercel.app/api?username=isaac1227&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" />
-  <img height="165" alt="Lenguajes principales" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaac1227&layout=compact&theme=github_dark&hide_border=true" />
-</p>
+Puedes revisar mi actividad tecnica directamente desde GitHub:
+
+| Area | Enlace |
+| --- | --- |
+| Perfil publico | [github.com/isaac1227](https://github.com/isaac1227) |
+| Repositorios | [github.com/isaac1227?tab=repositories](https://github.com/isaac1227?tab=repositories) |
+| Actividad reciente | [github.com/isaac1227?tab=overview](https://github.com/isaac1227?tab=overview) |
+| Proyectos destacados | [`finanzas-personales`](./finanzas-personales), [`repunet`](./repunet), [`solidarianid`](./solidarianid) |
 
 ## Roadmap
 
