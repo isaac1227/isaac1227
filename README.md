@@ -22,9 +22,11 @@
 
 ## Perfil
 
-Ingeniero de software full stack con foco en backend, sistemas distribuidos, diseño de APIs e investigación aplicada en aprendizaje federado. Construyo productos y servicios orientados a producción con límites claros, arquitectura pragmática, validación automatizada y documentación pensada para operar sistemas con criterio.
+Ingeniero de software backend y full stack, cómodo trabajando tanto en frontend como en backend. He trabajado en proyectos relacionados con sistemas distribuidos, integración de datos, APIs, seguridad y arquitectura en entornos ágiles.
 
-Mi línea técnica actual combina desarrollo full stack, plataformas backend, diseño seguro de servicios y entornos descentralizados de aprendizaje automático, con foco en fiabilidad, mantenibilidad y validación experimental.
+En frontend he trabajado principalmente con React y JavaScript. En backend, sobre todo con Python y FastAPI, desarrollando APIs REST, autenticación JWT, pruebas automatizadas y aplicando principios de clean code y separación de responsabilidades. También trabajo con Docker, PostgreSQL, SQLite y control de versiones con Git, GitLab y GitHub.
+
+Mi experiencia combina desarrollo de producto, despliegue de servicios con Docker y Kubernetes, y una base de investigación donde la reproducibilidad, la validación y la documentación rigurosa son parte central del trabajo. Actualmente busco seguir creciendo técnicamente en backend, arquitectura y tecnologías relacionadas con IA aplicada al software.
 
 ---
 
@@ -32,7 +34,7 @@ Mi línea técnica actual combina desarrollo full stack, plataformas backend, di
 
 | Backend | Frontend | Datos | DevOps y Calidad |
 | --- | --- | --- | --- |
-| Python · FastAPI · NestJS | React · JavaScript | PostgreSQL · SQLite · MongoDB | Docker · GitHub Actions |
+| Python · FastAPI · NestJS | React · JavaScript | PostgreSQL · SQLite · MongoDB | Docker · Kubernetes · GitHub Actions |
 | APIs REST · JWT · OpenAPI | Interfaces basadas en componentes | Diseño de esquemas · persistencia | CI/CD · pruebas automatizadas |
 
 <p align="center">
