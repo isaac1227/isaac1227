@@ -1,0 +1,42 @@
+name: CI del repositorio
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validar estructura del repositorio
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f .env.example
+          test -f docker-compose.yml
+          test -d docs
+          test -d screenshots
+          test -d backend
+          test -d frontend
+          test -d tests
+
+      - name: Revisar enlaces Markdown
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: "yes"
+          config-file: ".github/workflows/mlc_config.json"
+
+      - name: Compilar placeholders Python
+        run: python3 -m compileall backend tests
