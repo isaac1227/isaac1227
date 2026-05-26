@@ -30,12 +30,10 @@ Mi línea técnica actual combina desarrollo full stack, plataformas backend, di
 
 ## Stack Tecnológico
 
-```txt
-Backend            Python · FastAPI · NestJS · APIs REST · JWT · OpenAPI
-Frontend           React · JavaScript · interfaces basadas en componentes
-Datos              PostgreSQL · SQLite · MongoDB · diseño de esquemas
-DevOps y Calidad   Docker · GitHub Actions · CI/CD · pruebas automatizadas
-```
+| Backend | Frontend | Datos | DevOps y Calidad |
+| --- | --- | --- | --- |
+| Python · FastAPI · NestJS | React · JavaScript | PostgreSQL · SQLite · MongoDB | Docker · GitHub Actions |
+| APIs REST · JWT · OpenAPI | Interfaces basadas en componentes | Diseño de esquemas · persistencia | CI/CD · pruebas automatizadas |
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -52,18 +50,11 @@ DevOps y Calidad   Docker · GitHub Actions · CI/CD · pruebas automatizadas
 
 ## Proyectos Destacados
 
-```txt
-Personal Finance Manager   React · FastAPI · PostgreSQL · Docker
-Finanzas personales, autenticación JWT, API REST, seguimiento de gastos y visualización de datos.
-
-RepuNet                    Python · FastAPI · PyTorch · SQLite · Docker
-Sistema de reputación descentralizado para aprendizaje federado, mitigación adversarial y validación experimental.
-
-Solidarianid               React · NestJS · MongoDB
-Plataforma full stack de orientación social con arquitectura limpia, autenticación JWT, pruebas automatizadas y accesibilidad.
-```
-
-**Repositorios:** [Personal Finance Manager](./finanzas-personales) · [RepuNet](./repunet) · [Solidarianid](./solidarianid)
+| Proyecto | Stack | Enfoque |
+| --- | --- | --- |
+| **[Personal Finance Manager](./finanzas-personales)** | React · FastAPI · PostgreSQL · Docker | Finanzas personales, autenticación JWT, API REST y visualización de datos. |
+| **[RepuNet](./repunet)** | Python · FastAPI · PyTorch · SQLite · Docker | Reputación descentralizada para aprendizaje federado, mitigación adversarial y validación experimental. |
+| **[Solidarianid](./solidarianid)** | React · NestJS · MongoDB | Plataforma full stack con arquitectura limpia, autenticación JWT, pruebas automatizadas y accesibilidad. |
 
 **Artículo publicado en Computer Networks**
 
@@ -73,13 +64,13 @@ Plataforma full stack de orientación social con arquitectura limpia, autenticac
 
 ## Áreas Técnicas
 
-```txt
-Ingeniería Backend       APIs, autenticación, límites de servicio, validación y persistencia.
-Sistemas Distribuidos    Coordinación descentralizada, tolerancia a fallos y confianza entre pares.
-Aprendizaje Federado     Mitigación adversarial, reputación, experimentación y documentación científica.
-Arquitectura             Capas limpias, módulos mantenibles, contratos explícitos y decisiones trazables.
-Seguridad y DevOps       JWT, mínimo privilegio, Docker, CI y configuración local reproducible.
-```
+| Área | Trabajo principal |
+| --- | --- |
+| **Ingeniería Backend** | APIs, autenticación, límites de servicio, validación y persistencia. |
+| **Sistemas Distribuidos** | Coordinación descentralizada, tolerancia a fallos y confianza entre pares. |
+| **Aprendizaje Federado** | Mitigación adversarial, reputación, experimentación y documentación científica. |
+| **Arquitectura** | Capas limpias, módulos mantenibles, contratos explícitos y decisiones trazables. |
+| **Seguridad y DevOps** | JWT, mínimo privilegio, Docker, CI y configuración local reproducible. |
 
 ---
 
