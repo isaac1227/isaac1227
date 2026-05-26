@@ -26,7 +26,7 @@ Areas principales:
 - Confianza peer-to-peer.
 - Mitigacion adversarial.
 - Validacion experimental.
-- Publicacion de investigacion en progreso: "RepuNet: A Reputation System for Mitigating Malicious Clients in DFL".
+- Articulo publicado en Computer Networks: [RepuNet: A Reputation System for Mitigating Malicious Clients in DFL](https://doi.org/10.1016/j.comnet.2026.112242).
 
 ## Solidarianid
 

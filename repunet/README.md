@@ -2,9 +2,9 @@
 
 Sistema descentralizado de reputacion para entornos de aprendizaje federado, disenado para reducir el impacto de clientes maliciosos durante entrenamiento distribuido.
 
-Publicacion en progreso:
+Articulo publicado en Computer Networks:
 
-> RepuNet: A Reputation System for Mitigating Malicious Clients in DFL
+> [RepuNet: A Reputation System for Mitigating Malicious Clients in DFL](https://doi.org/10.1016/j.comnet.2026.112242)
 
 ## Stack
 

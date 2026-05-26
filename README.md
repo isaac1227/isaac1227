@@ -1,5 +1,3 @@
-# Isaac1227
-
 <p align="center">
   <img src="/screenshots/LinkedIn.png" alt="Banner profesional de Isaac como ingeniero de software" />
 </p>
@@ -62,9 +60,9 @@ Sistema descentralizado de reputacion para entornos de aprendizaje federado, cen
 **Stack:** Python, FastAPI, PyTorch, SQLite, Docker  
 **Foco de ingenieria:** calculo de reputacion, sistemas de confianza peer-to-peer, mitigacion adversarial y validacion experimental reproducible.
 
-Publicacion en progreso:
+Articulo publicado en Computer Networks:
 
-> RepuNet: A Reputation System for Mitigating Malicious Clients in DFL
+> [RepuNet: A Reputation System for Mitigating Malicious Clients in DFL](https://doi.org/10.1016/j.comnet.2026.112242)
 
 Capacidades principales:
 
@@ -166,11 +164,11 @@ python3 -m compileall backend tests
 
 Puedes revisar mi actividad tecnica directamente desde GitHub:
 
-| Area | Enlace |
-| --- | --- |
-| Perfil publico | [github.com/isaac1227](https://github.com/isaac1227) |
-| Repositorios | [github.com/isaac1227?tab=repositories](https://github.com/isaac1227?tab=repositories) |
-| Actividad reciente | [github.com/isaac1227?tab=overview](https://github.com/isaac1227?tab=overview) |
+| Area                 | Enlace                                                                                                   |
+| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| Perfil publico       | [github.com/isaac1227](https://github.com/isaac1227)                                                     |
+| Repositorios         | [github.com/isaac1227?tab=repositories](https://github.com/isaac1227?tab=repositories)                   |
+| Actividad reciente   | [github.com/isaac1227?tab=overview](https://github.com/isaac1227?tab=overview)                           |
 | Proyectos destacados | [`finanzas-personales`](./finanzas-personales), [`repunet`](./repunet), [`solidarianid`](./solidarianid) |
 
 ## Roadmap
