@@ -11,11 +11,11 @@
 
 <p align="center">
   <a href="https://github.com/isaac1227">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-isaac1227-0d1117?style=for-the-badge&logo=github&logoColor=white" />
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-isaac1227-181717?style=flat-square&logo=github" />
   </a>
-  <img alt="Full stack" src="https://img.shields.io/badge/Perfil-Full%20Stack-111827?style=for-the-badge" />
-  <img alt="Backend" src="https://img.shields.io/badge/Foco-Backend-1f2937?style=for-the-badge" />
-  <img alt="Investigación" src="https://img.shields.io/badge/Investigaci%C3%B3n-DFL%20%7C%20RepuNet-164e63?style=for-the-badge" />
+  <img alt="Full stack" src="https://img.shields.io/badge/Perfil-Full%20Stack-2563eb?style=flat-square" />
+  <img alt="Sistemas distribuidos" src="https://img.shields.io/badge/Sistemas-Distribuidos-14b8a6?style=flat-square" />
+  <img alt="Aprendizaje federado" src="https://img.shields.io/badge/Investigaci%C3%B3n-Aprendizaje%20Federado-7c3aed?style=flat-square" />
 </p>
 
 ---
@@ -30,31 +30,40 @@ Mi línea técnica actual combina desarrollo full stack, plataformas backend, di
 
 ## Stack Tecnológico
 
-| Backend | Frontend | Datos | DevOps y Calidad |
-| --- | --- | --- | --- |
-| Python · FastAPI · NestJS | React · JavaScript | PostgreSQL · SQLite · MongoDB | Docker · GitHub Actions · CI/CD |
-| APIs REST · JWT · OpenAPI | Interfaces basadas en componentes | Diseño de esquemas · persistencia | Pruebas automatizadas · entornos reproducibles |
+```txt
+Backend            Python · FastAPI · NestJS · APIs REST · JWT · OpenAPI
+Frontend           React · JavaScript · interfaces basadas en componentes
+Datos              PostgreSQL · SQLite · MongoDB · diseño de esquemas
+DevOps y Calidad   Docker · GitHub Actions · CI/CD · pruebas automatizadas
+```
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3776AB" />
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=009688" />
-  <img alt="React" src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=61DAFB" />
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=4169E1" />
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED" />
-  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-111827?style=flat-square&logo=nestjs&logoColor=E0234E" />
-  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-111827?style=flat-square&logo=mongodb&logoColor=47A248" />
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-111827?style=flat-square&logo=github-actions&logoColor=2088FF" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img alt="NestJS" src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-116149?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
 </p>
 
 ---
 
 ## Proyectos Destacados
 
-| Proyecto | Stack | Enfoque |
-| --- | --- | --- |
-| **[Personal Finance Manager](./finanzas-personales)** | React · FastAPI · PostgreSQL · Docker | Finanzas personales, autenticación JWT, API REST, seguimiento de gastos y visualización de datos. |
-| **[RepuNet](./repunet)** | Python · FastAPI · PyTorch · SQLite · Docker | Sistema de reputación descentralizado para aprendizaje federado, mitigación adversarial y validación experimental. |
-| **[Solidarianid](./solidarianid)** | React · NestJS · MongoDB | Plataforma full stack de orientación social con arquitectura limpia, autenticación JWT, pruebas automatizadas y accesibilidad. |
+```txt
+Personal Finance Manager   React · FastAPI · PostgreSQL · Docker
+Finanzas personales, autenticación JWT, API REST, seguimiento de gastos y visualización de datos.
+
+RepuNet                    Python · FastAPI · PyTorch · SQLite · Docker
+Sistema de reputación descentralizado para aprendizaje federado, mitigación adversarial y validación experimental.
+
+Solidarianid               React · NestJS · MongoDB
+Plataforma full stack de orientación social con arquitectura limpia, autenticación JWT, pruebas automatizadas y accesibilidad.
+```
+
+**Repositorios:** [Personal Finance Manager](./finanzas-personales) · [RepuNet](./repunet) · [Solidarianid](./solidarianid)
 
 **Artículo publicado en Computer Networks**
 
@@ -64,13 +73,13 @@ Mi línea técnica actual combina desarrollo full stack, plataformas backend, di
 
 ## Áreas Técnicas
 
-| Área | Trabajo principal |
-| --- | --- |
-| **Ingeniería Backend** | Diseño de APIs, autenticación, límites de servicio, validación, persistencia y claridad operativa. |
-| **Sistemas Distribuidos** | Coordinación descentralizada, diseño tolerante a fallos, confianza entre pares y simulaciones reproducibles. |
-| **Aprendizaje Federado** | Mitigación adversarial, sistemas de reputación, flujos experimentales y documentación de investigación. |
-| **Arquitectura de Software** | Capas limpias, módulos mantenibles, contratos explícitos y decisiones tecnológicas alineadas con restricciones. |
-| **Seguridad y DevOps** | JWT, mínimo privilegio, Docker, comprobaciones de CI y configuración local reproducible. |
+```txt
+Ingeniería Backend       APIs, autenticación, límites de servicio, validación y persistencia.
+Sistemas Distribuidos    Coordinación descentralizada, tolerancia a fallos y confianza entre pares.
+Aprendizaje Federado     Mitigación adversarial, reputación, experimentación y documentación científica.
+Arquitectura             Capas limpias, módulos mantenibles, contratos explícitos y decisiones trazables.
+Seguridad y DevOps       JWT, mínimo privilegio, Docker, CI y configuración local reproducible.
+```
 
 ---
 
