@@ -1,42 +1,42 @@
-# Portfolio de Proyectos
+# Portafolio de Proyectos
 
 ## Personal Finance Manager
 
-Aplicacion full-stack para gestion de finanzas personales.
+Aplicación full-stack para gestión de finanzas personales.
 
-**Tecnologias:** React, FastAPI, PostgreSQL, Docker
+**Tecnologías:** React, FastAPI, PostgreSQL, Docker
 
-Areas principales:
+Áreas principales:
 
-- Autenticacion JWT.
+- Autenticación JWT.
 - Seguimiento de gastos.
-- Diseno de API REST.
-- Visualizacion de datos.
+- Diseño de API REST.
+- Visualización de datos.
 - Desarrollo containerizado.
 
 ## RepuNet
 
-Sistema descentralizado de reputacion para entornos de aprendizaje federado.
+Sistema descentralizado de reputación para entornos de aprendizaje federado.
 
-**Tecnologias:** Python, FastAPI, PyTorch, SQLite, Docker
+**Tecnologías:** Python, FastAPI, PyTorch, SQLite, Docker
 
-Areas principales:
+Áreas principales:
 
-- Calculo de reputacion.
+- Cálculo de reputación.
 - Confianza peer-to-peer.
-- Mitigacion adversarial.
-- Validacion experimental.
-- Articulo publicado en Computer Networks: [RepuNet: A Reputation System for Mitigating Malicious Clients in DFL](https://doi.org/10.1016/j.comnet.2026.112242).
+- Mitigación adversarial.
+- Validación experimental.
+- Artículo publicado en Computer Networks: [RepuNet: A Reputation System for Mitigating Malicious Clients in DFL](https://doi.org/10.1016/j.comnet.2026.112242).
 
 ## Solidarianid
 
-Plataforma full-stack de orientacion social.
+Plataforma full-stack de orientación social.
 
-**Tecnologias:** React, NestJS, MongoDB
+**Tecnologías:** React, NestJS, MongoDB
 
-Areas principales:
+Áreas principales:
 
 - Arquitectura limpia.
-- Autenticacion JWT.
-- Testing automatizado.
-- Diseno frontend orientado a accesibilidad.
+- Autenticación JWT.
+- Pruebas automatizadas.
+- Diseño frontend orientado a accesibilidad.

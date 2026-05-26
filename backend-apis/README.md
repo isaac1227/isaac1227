@@ -1,6 +1,6 @@
 # Backend APIs
 
-Coleccion de notas de APIs backend y patrones de servicio enfocados en seguridad, rendimiento y contratos mantenibles.
+Colección de notas de APIs backend y patrones de servicio enfocados en seguridad, rendimiento y contratos mantenibles.
 
 ## Stack
 
@@ -9,31 +9,31 @@ Coleccion de notas de APIs backend y patrones de servicio enfocados en seguridad
 - PostgreSQL, MongoDB y SQLite.
 - Docker y GitHub Actions.
 
-## Foco de Ingenieria
+## Foco de Ingeniería
 
-- Diseno seguro de endpoints.
-- Contratos de API REST y documentacion OpenAPI.
-- Flujos de autenticacion y autorizacion.
-- Tests automatizados y validacion en CI.
+- Diseño seguro de endpoints.
+- Contratos de API REST y documentación OpenAPI.
+- Flujos de autenticación y autorización.
+- Pruebas automatizadas y validación en CI.
 - Benchmarks de rendimiento y notas operativas.
 
-## Direccion Arquitectonica
+## Dirección Arquitectónica
 
-Los servicios backend deben mantener separadas las responsabilidades de transporte, logica de dominio y persistencia:
+Los servicios backend deben mantener separadas las responsabilidades de transporte, lógica de dominio y persistencia:
 
 ```txt
 controller / route -> service layer -> repository / adapter -> database
 ```
 
-## Validacion
+## Validación
 
 ```bash
 pytest
 ```
 
-## Documentacion Pendiente
+## Documentación Pendiente
 
 - Ejemplos de referencia de API.
-- Lista de verificacion de seguridad.
+- Lista de verificación de seguridad.
 - Notas de benchmarks de rendimiento.
-- Despliegue y configuracion de entorno.
+- Despliegue y configuración de entorno.

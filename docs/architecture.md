@@ -1,43 +1,43 @@
-# Vision de Arquitectura
+# Visión de Arquitectura
 
-Este repositorio es un workspace profesional de perfil para trabajo backend, sistemas distribuidos y aprendizaje federado. Esta organizado para comunicar madurez tecnica sin fingir que todos los proyectos comparten un mismo runtime.
+Este repositorio es un espacio profesional de perfil para trabajo backend, sistemas distribuidos y aprendizaje federado. Está organizado para comunicar madurez técnica sin fingir que todos los proyectos comparten un mismo entorno de ejecución.
 
 ## Modelo de Trabajo
 
 ```txt
 repositorio de perfil
-|-- documentacion de proyectos
+|-- documentación de proyectos
 |-- notas de arquitectura
-|-- placeholders de capturas
+|-- marcadores de capturas
 |-- plantillas compartidas de desarrollo
-`-- checks de CI para calidad del repositorio
+`-- comprobaciones de CI para calidad del repositorio
 ```
 
 Cada proyecto puede evolucionar de forma independiente manteniendo un estilo documental consistente:
 
-- Una descripcion breve del problema.
-- Decisiones tecnologicas claras.
+- Una descripción breve del problema.
+- Decisiones tecnológicas claras.
 - Notas de arquitectura y seguridad.
-- Instrucciones de setup reproducible.
-- Comandos de testing y validacion.
+- Instrucciones de configuración reproducible.
+- Comandos de pruebas y validación.
 
-## Orientacion Backend
+## Orientación Backend
 
-Los proyectos backend deben exponer contratos explicitos mediante APIs REST, documentacion OpenAPI y limites de servicio bien definidos. Autenticacion, validacion, persistencia y observabilidad deben tratarse como responsabilidades centrales de ingenieria.
+Los proyectos backend deben exponer contratos explícitos mediante APIs REST, documentación OpenAPI y límites de servicio bien definidos. Autenticación, validación, persistencia y observabilidad deben tratarse como responsabilidades centrales de ingeniería.
 
-## Orientacion a Sistemas Distribuidos
+## Orientación a Sistemas Distribuidos
 
-El trabajo en sistemas distribuidos debe describir supuestos de coordinacion, modos de fallo, limites de confianza y reproducibilidad. En RepuNet, esto implica documentar el calculo de reputacion, los escenarios adversariales, el comportamiento de clientes y la validacion experimental.
+El trabajo en sistemas distribuidos debe describir supuestos de coordinación, modos de fallo, límites de confianza y reproducibilidad. En RepuNet, esto implica documentar el cálculo de reputación, los escenarios adversariales, el comportamiento de clientes y la validación experimental.
 
 ## Entornos de Desarrollo
 
-Docker Compose se usa como patron comun de orquestacion local. El `docker-compose.yml` de la raiz funciona como plantilla para servicios futuros y muestra la forma esperada del entorno de desarrollo:
+Docker Compose se usa como patrón común de orquestación local. El `docker-compose.yml` de la raíz funciona como plantilla para servicios futuros y muestra la forma esperada del entorno de desarrollo:
 
 - Servicio de API backend.
 - Servicio web frontend.
 - Base de datos PostgreSQL.
-- Persistencia opcional especifica por servicio.
+- Persistencia opcional específica por servicio.
 
-## Estandar de Documentacion
+## Estándar de Documentación
 
-La documentacion debe ser concisa, tecnica y consciente de la implementacion. Prioriza tradeoffs concretos, diagramas y resultados de validacion frente a explicaciones con tono de tutorial.
+La documentación debe ser concisa, técnica y consciente de la implementación. Prioriza decisiones técnicas concretas, diagramas y resultados de validación frente a explicaciones con tono de tutorial.

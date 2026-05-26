@@ -1,5 +1,5 @@
-# Espacio de Tests
+# Espacio de Pruebas
 
-Espacio reservado para scripts de validacion compartidos y tests transversales.
+Espacio reservado para scripts de validación compartidos y pruebas transversales.
 
-Los tests especificos de cada proyecto deben vivir cerca de su implementacion siempre que sea posible. Los checks compartidos pueden anadirse aqui cuando validen comportamiento a nivel de repositorio.
+Las pruebas específicas de cada proyecto deben vivir cerca de su implementación siempre que sea posible. Las comprobaciones compartidas pueden añadirse aquí cuando validen comportamiento a nivel de repositorio.

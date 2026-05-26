@@ -2,11 +2,11 @@
 
 Espacio reservado para aplicaciones frontend y prototipos de interfaz.
 
-Tecnologias esperadas:
+Tecnologías esperadas:
 
 - React
 - JavaScript
 - Componentes de UI orientados a accesibilidad
-- Capas de integracion con APIs
+- Capas de integración con APIs
 
-El codigo frontend especifico de cada proyecto debe incluir setup local, comandos de build e instrucciones de testing.
+El código frontend específico de cada proyecto debe incluir configuración local, comandos de build e instrucciones de pruebas.

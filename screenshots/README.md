@@ -1,6 +1,6 @@
 # Capturas
 
-Este directorio esta reservado para capturas de proyectos, diagramas de arquitectura y demos visuales.
+Este directorio está reservado para capturas de proyectos, diagramas de arquitectura y demostraciones visuales.
 
 Archivos sugeridos:
 
@@ -9,4 +9,4 @@ Archivos sugeridos:
 - `solidarianid-accessible-flow.png`
 - `architecture-overview.png`
 
-Mantener las imagenes comprimidas y evitar subir datos sensibles.
+Mantener las imágenes comprimidas y evitar subir datos sensibles.

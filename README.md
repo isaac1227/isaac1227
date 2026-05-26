@@ -6,23 +6,23 @@
   <a href="https://github.com/isaac1227">
     <img alt="Perfil de GitHub" src="https://img.shields.io/badge/GitHub-isaac1227-181717?style=flat-square&logo=github" />
   </a>
-  <img alt="Ingenieria backend" src="https://img.shields.io/badge/Foco-Backend-2563eb?style=flat-square" />
+  <img alt="Ingeniería backend" src="https://img.shields.io/badge/Foco-Backend-2563eb?style=flat-square" />
   <img alt="Sistemas distribuidos" src="https://img.shields.io/badge/Sistemas-Distribuidos-14b8a6?style=flat-square" />
-  <img alt="Aprendizaje federado" src="https://img.shields.io/badge/Investigacion-Aprendizaje%20Federado-7c3aed?style=flat-square" />
+  <img alt="Aprendizaje federado" src="https://img.shields.io/badge/Investigaci%C3%B3n-Aprendizaje%20Federado-7c3aed?style=flat-square" />
 </p>
 
 ## Perfil
 
-Ingeniero de software enfocado en desarrollo backend, sistemas distribuidos, diseno de APIs e investigacion aplicada en aprendizaje federado. Construyo servicios orientados a produccion con limites claros, arquitectura pragmatica, validacion automatizada y documentacion pensada para operar sistemas con criterio.
+Ingeniero de software enfocado en desarrollo backend, sistemas distribuidos, diseño de APIs e investigación aplicada en aprendizaje federado. Construyo servicios orientados a producción con límites claros, arquitectura pragmática, validación automatizada y documentación pensada para operar sistemas con criterio.
 
-Mi linea tecnica actual combina plataformas backend, diseno seguro de servicios y entornos descentralizados de aprendizaje automatico, con foco en fiabilidad, mantenibilidad y validacion experimental.
+Mi línea técnica actual combina plataformas backend, diseño seguro de servicios y entornos descentralizados de aprendizaje automático, con foco en fiabilidad, mantenibilidad y validación experimental.
 
-## Stack Tecnologico
+## Stack Tecnológico
 
 | Backend                 | Frontend                          | Datos                                     | DevOps y Calidad                            |
 | ----------------------- | --------------------------------- | ----------------------------------------- | ------------------------------------------- |
 | Python, FastAPI, NestJS | React, JavaScript                 | PostgreSQL, SQLite, MongoDB               | Docker, GitHub Actions, CI/CD               |
-| APIs REST, JWT, OpenAPI | Interfaces basadas en componentes | Diseno de esquemas, capas de persistencia | Tests automatizados, entornos reproducibles |
+| APIs REST, JWT, OpenAPI | Interfaces basadas en componentes | Diseño de esquemas, capas de persistencia | Pruebas automatizadas, entornos reproducibles |
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -39,79 +39,79 @@ Mi linea tecnica actual combina plataformas backend, diseno seguro de servicios 
 
 ### Personal Finance Manager
 
-Plataforma full-stack de finanzas personales disenada alrededor de acceso seguro, seguimiento de gastos y visualizacion clara de datos financieros.
+Plataforma full-stack de finanzas personales diseñada alrededor de acceso seguro, seguimiento de gastos y visualización clara de datos financieros.
 
 **Stack:** React, FastAPI, PostgreSQL, Docker  
-**Foco de ingenieria:** autenticacion JWT, diseno de API REST, modulos backend orientados al dominio y modelos preparados para dashboards.
+**Foco de ingeniería:** autenticación JWT, diseño de API REST, módulos backend orientados al dominio y modelos preparados para paneles de visualización.
 
 Capacidades principales:
 
-- Seguimiento de gastos y reportes por categoria.
-- Flujo de autenticacion seguro con sesiones basadas en tokens.
+- Seguimiento de gastos y reportes por categoría.
+- Flujo de autenticación seguro con sesiones basadas en tokens.
 - Entorno local containerizado para backend, frontend y base de datos.
-- Capa de visualizacion para analizar patrones de gasto.
+- Capa de visualización para analizar patrones de gasto.
 
 Notas del proyecto: [`finanzas-personales/`](./finanzas-personales)
 
 ### RepuNet
 
-Sistema descentralizado de reputacion para entornos de aprendizaje federado, centrado en identificar y reducir el impacto de clientes maliciosos durante el entrenamiento distribuido.
+Sistema descentralizado de reputación para entornos de aprendizaje federado, centrado en identificar y reducir el impacto de clientes maliciosos durante el entrenamiento distribuido.
 
 **Stack:** Python, FastAPI, PyTorch, SQLite, Docker  
-**Foco de ingenieria:** calculo de reputacion, sistemas de confianza peer-to-peer, mitigacion adversarial y validacion experimental reproducible.
+**Foco de ingeniería:** cálculo de reputación, sistemas de confianza peer-to-peer, mitigación adversarial y validación experimental reproducible.
 
-Articulo publicado en Computer Networks:
+Artículo publicado en Computer Networks:
 
 > [RepuNet: A Reputation System for Mitigating Malicious Clients in DFL](https://doi.org/10.1016/j.comnet.2026.112242)
 
 Capacidades principales:
 
-- Calculo de reputacion para clientes de aprendizaje federado descentralizado.
-- Coordinacion entre pares basada en confianza.
-- Validacion experimental bajo participacion adversarial.
-- Persistencia ligera para simulacion y auditabilidad.
+- Cálculo de reputación para clientes de aprendizaje federado descentralizado.
+- Coordinación entre pares basada en confianza.
+- Validación experimental bajo participación adversarial.
+- Persistencia ligera para simulación y auditabilidad.
 
 Notas del proyecto: [`repunet/`](./repunet)
 
 ### Solidarianid
 
-Plataforma full-stack de orientacion social con arquitectura backend limpia y experiencia frontend pensada para accesibilidad y flujos claros.
+Plataforma full-stack de orientación social con arquitectura backend limpia y experiencia frontend pensada para accesibilidad y flujos claros.
 
 **Stack:** React, NestJS, MongoDB  
-**Foco de ingenieria:** arquitectura limpia, autenticacion JWT, testing automatizado y diseno orientado a accesibilidad.
+**Foco de ingeniería:** arquitectura limpia, autenticación JWT, pruebas automatizadas y diseño orientado a accesibilidad.
 
 Capacidades principales:
 
-- Diseno modular de API con autenticacion y autorizacion.
+- Diseño modular de API con autenticación y autorización.
 - Estructura frontend preparada para crecimiento mantenible.
-- Estrategia de tests automatizados para servicios e interfaz.
+- Estrategia de pruebas automatizadas para servicios e interfaz.
 - Decisiones de UI orientadas a accesibilidad.
 
 Notas del proyecto: [`solidarianid/`](./solidarianid)
 
-## Areas Tecnicas
+## Áreas Técnicas
 
-- **Ingenieria Backend:** diseno de APIs, autenticacion, limites de servicio, validacion, persistencia y claridad operativa.
-- **Sistemas Distribuidos:** coordinacion descentralizada, diseno tolerante a fallos, confianza entre pares y simulaciones reproducibles.
-- **Aprendizaje Federado:** mitigacion adversarial, sistemas de reputacion, flujos experimentales y documentacion de investigacion.
-- **Arquitectura de Software:** capas limpias, modulos mantenibles, contratos explicitos y decisiones tecnologicas alineadas con restricciones.
-- **Seguridad:** flujos JWT, configuracion de minimo privilegio, validacion de entrada y valores por defecto seguros.
-- **DevOps:** desarrollo basado en Docker, checks de CI, plantillas de entorno y setup local repetible.
+- **Ingeniería Backend:** diseño de APIs, autenticación, límites de servicio, validación, persistencia y claridad operativa.
+- **Sistemas Distribuidos:** coordinación descentralizada, diseño tolerante a fallos, confianza entre pares y simulaciones reproducibles.
+- **Aprendizaje Federado:** mitigación adversarial, sistemas de reputación, flujos experimentales y documentación de investigación.
+- **Arquitectura de Software:** capas limpias, módulos mantenibles, contratos explícitos y decisiones tecnológicas alineadas con restricciones.
+- **Seguridad:** flujos JWT, configuración de mínimo privilegio, validación de entrada y valores por defecto seguros.
+- **DevOps:** desarrollo basado en Docker, comprobaciones de CI, plantillas de entorno y configuración local reproducible.
 
 ## Estructura del Repositorio
 
 ```txt
 .
-|-- .github/workflows/      # Ejemplos de CI y automatizacion del repositorio
+|-- .github/workflows/      # Ejemplos de CI y automatización del repositorio
 |-- backend/                # Espacio de trabajo backend
 |-- backend-apis/           # Notas y referencias de APIs backend
-|-- docs/                   # Documentacion de arquitectura e ingenieria
+|-- docs/                   # Documentación de arquitectura e ingeniería
 |-- finanzas-personales/    # Notas del proyecto Personal Finance Manager
 |-- frontend/               # Espacio de trabajo frontend
-|-- repunet/                # Notas de investigacion e implementacion de RepuNet
+|-- repunet/                # Notas de investigación e implementación de RepuNet
 |-- screenshots/            # Marcadores para capturas y diagramas
 |-- solidarianid/           # Notas del proyecto Solidarianid
-|-- tests/                  # Espacio compartido de validacion
+|-- tests/                  # Espacio compartido de validación
 |-- docker-compose.yml
 |-- .env.example
 |-- .gitignore
@@ -121,17 +121,17 @@ Notas del proyecto: [`solidarianid/`](./solidarianid)
 
 ## Arquitectura
 
-Este repositorio de perfil esta organizado como un workspace de portfolio tecnico, no como una unica aplicacion. Cada proyecto destacado mantiene su propia documentacion, mientras que las referencias compartidas de ingenieria viven en [`docs/`](./docs).
+Este repositorio de perfil está organizado como un portafolio técnico, no como una única aplicación. Cada proyecto destacado mantiene su propia documentación, mientras que las referencias compartidas de ingeniería viven en [`docs/`](./docs).
 
 Lectura recomendada:
 
-- [Vision de Arquitectura](./docs/architecture.md)
-- [Portfolio de Proyectos](./docs/projects.md)
-- [Principios de Ingenieria](./docs/engineering-principles.md)
+- [Visión de Arquitectura](./docs/architecture.md)
+- [Portafolio de Proyectos](./docs/projects.md)
+- [Principios de Ingeniería](./docs/engineering-principles.md)
 
-## Configuracion Local
+## Configuración Local
 
-Clona el repositorio y revisa el workspace de documentacion:
+Clona el repositorio y revisa el espacio de documentación:
 
 ```bash
 git clone https://github.com/isaac1227/isaac1227.git
@@ -150,11 +150,11 @@ Arranca el stack de servicios de ejemplo:
 docker compose up --build
 ```
 
-El archivo de Compose es intencionalmente minimo y funciona como plantilla de desarrollo para servicios backend, frontend y bases de datos.
+El archivo de Compose es intencionalmente mínimo y funciona como plantilla de desarrollo para servicios backend, frontend y bases de datos.
 
 ## Calidad
 
-Este repositorio incluye un workflow de GitHub Actions que valida estructura, referencias Markdown e higiene documental. Los tests especificos de cada proyecto pueden anadirse dentro de su directorio de implementacion a medida que evolucionen los servicios.
+Este repositorio incluye un flujo de trabajo de GitHub Actions que valida estructura, referencias Markdown e higiene documental. Las pruebas específicas de cada proyecto pueden añadirse dentro de su directorio de implementación a medida que evolucionen los servicios.
 
 ```bash
 python3 -m compileall backend tests
@@ -162,32 +162,32 @@ python3 -m compileall backend tests
 
 ## Actividad en GitHub
 
-Puedes revisar mi actividad tecnica directamente desde GitHub:
+Puedes revisar mi actividad técnica directamente desde GitHub:
 
-| Area                 | Enlace                                                                                                   |
+| Área                 | Enlace                                                                                                   |
 | -------------------- | -------------------------------------------------------------------------------------------------------- |
-| Perfil publico       | [github.com/isaac1227](https://github.com/isaac1227)                                                     |
+| Perfil público       | [github.com/isaac1227](https://github.com/isaac1227)                                                     |
 | Repositorios         | [github.com/isaac1227?tab=repositories](https://github.com/isaac1227?tab=repositories)                   |
 | Actividad reciente   | [github.com/isaac1227?tab=overview](https://github.com/isaac1227?tab=overview)                           |
 | Proyectos destacados | [`finanzas-personales`](./finanzas-personales), [`repunet`](./repunet), [`solidarianid`](./solidarianid) |
 
-## Roadmap
+## Hoja de Ruta
 
-- Anadir capturas de produccion y diagramas de arquitectura por proyecto.
+- Añadir capturas de producción y diagramas de arquitectura por proyecto.
 - Ampliar los reportes experimentales de RepuNet con benchmarks y notas de reproducibilidad.
-- Anadir ejemplos OpenAPI para servicios backend.
-- Publicar entornos demo containerizados para proyectos seleccionados.
-- Anadir notas de diseno de sistemas sobre autenticacion, persistencia y coordinacion distribuida.
+- Añadir ejemplos OpenAPI para servicios backend.
+- Publicar entornos de demostración con contenedores para proyectos seleccionados.
+- Añadir notas de diseño de sistemas sobre autenticación, persistencia y coordinación distribuida.
 
-## Contribucion
+## Contribución
 
-Las issues y pull requests son bienvenidas cuando mejoran la calidad documental, la claridad arquitectonica, la reproducibilidad o la organizacion del proyecto.
+Las issues y pull requests son bienvenidas cuando mejoran la calidad documental, la claridad arquitectónica, la reproducibilidad o la organización del proyecto.
 
 Antes de abrir una pull request:
 
-- Mantener los cambios enfocados y faciles de revisar.
-- Incluir documentacion cuando cambie comportamiento o estructura.
-- Anadir tests o pasos de validacion para cambios de implementacion.
+- Mantener los cambios enfocados y fáciles de revisar.
+- Incluir documentación cuando cambie comportamiento o estructura.
+- Añadir pruebas o pasos de validación para cambios de implementación.
 - Evitar commits con secretos, artefactos generados o archivos locales de entorno.
 
 ## Licencia

@@ -1,26 +1,26 @@
 # RepuNet
 
-Sistema descentralizado de reputacion para entornos de aprendizaje federado, disenado para reducir el impacto de clientes maliciosos durante entrenamiento distribuido.
+Sistema descentralizado de reputación para entornos de aprendizaje federado, diseñado para reducir el impacto de clientes maliciosos durante entrenamiento distribuido.
 
-Articulo publicado en Computer Networks:
+Artículo publicado en Computer Networks:
 
 > [RepuNet: A Reputation System for Mitigating Malicious Clients in DFL](https://doi.org/10.1016/j.comnet.2026.112242)
 
 ## Stack
 
-- Python para simulacion, evaluacion y servicios backend.
-- FastAPI para APIs de experimentacion y servicio.
+- Python para simulación, evaluación y servicios backend.
+- FastAPI para APIs de experimentación y servicio.
 - PyTorch para flujos de aprendizaje federado.
 - SQLite para estado experimental ligero.
-- Docker y GitHub Actions para ejecucion reproducible.
+- Docker y GitHub Actions para ejecución reproducible.
 
 ## Capacidades Principales
 
-- Calculo de reputacion para clientes de aprendizaje federado descentralizado.
+- Cálculo de reputación para clientes de aprendizaje federado descentralizado.
 - Modelado de confianza peer-to-peer.
-- Mitigacion adversarial frente a comportamiento malicioso.
-- Seguimiento de experimentos y flujos de validacion.
-- Estructura modular para iteracion de investigacion.
+- Mitigación adversarial frente a comportamiento malicioso.
+- Seguimiento de experimentos y flujos de validación.
+- Estructura modular para iteración de investigación.
 
 ## Arquitectura
 
@@ -30,14 +30,14 @@ FL client nodes -> reputation layer -> aggregation / peer selection
                          `-> experiment persistence
 ```
 
-El sistema separa comportamiento de clientes, actualizaciones de reputacion, escenarios adversariales y reportes de validacion. Esto mantiene los experimentos reproducibles sin perder una ruta clara hacia limites de servicio mas cercanos a produccion.
+El sistema separa comportamiento de clientes, actualizaciones de reputación, escenarios adversariales y reportes de validación. Esto mantiene los experimentos reproducibles sin perder una ruta clara hacia límites de servicio más cercanos a producción.
 
-## Foco de Validacion
+## Foco de Validación
 
-- Participacion de clientes maliciosos.
-- Degradacion y recuperacion de reputacion.
+- Participación de clientes maliciosos.
+- Degradación y recuperación de reputación.
 - Convergencia de confianza entre pares.
-- Tradeoffs entre precision y robustez.
+- Tradeoffs entre precisión y robustez.
 - Reproducibilidad experimental.
 
 ## Desarrollo Local
@@ -52,9 +52,9 @@ docker compose up --build
 pytest
 ```
 
-## Documentacion Pendiente
+## Documentación Pendiente
 
-- Diseno del algoritmo de reputacion.
+- Diseño del algoritmo de reputación.
 - Modelo de amenazas y supuestos adversariales.
 - Protocolo experimental.
 - Resultados de benchmark y limitaciones.

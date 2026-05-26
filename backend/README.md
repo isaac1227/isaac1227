@@ -2,7 +2,7 @@
 
 Espacio reservado para servicios backend, prototipos de API y utilidades compartidas.
 
-Tecnologias esperadas:
+Tecnologías esperadas:
 
 - Python
 - FastAPI
@@ -11,4 +11,4 @@ Tecnologias esperadas:
 - SQLite
 - MongoDB
 
-El codigo backend especifico de cada proyecto debe incluir sus propias instrucciones de setup, tests y documentacion de API.
+El código backend específico de cada proyecto debe incluir sus propias instrucciones de configuración, pruebas y documentación de API.
