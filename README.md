@@ -6,16 +6,16 @@
   <a href="https://github.com/isaac1227">
     <img alt="Perfil de GitHub" src="https://img.shields.io/badge/GitHub-isaac1227-181717?style=flat-square&logo=github" />
   </a>
-  <img alt="Ingeniería backend" src="https://img.shields.io/badge/Foco-Backend-2563eb?style=flat-square" />
+  <img alt="Perfil full stack" src="https://img.shields.io/badge/Perfil-Full%20Stack-2563eb?style=flat-square" />
   <img alt="Sistemas distribuidos" src="https://img.shields.io/badge/Sistemas-Distribuidos-14b8a6?style=flat-square" />
   <img alt="Aprendizaje federado" src="https://img.shields.io/badge/Investigaci%C3%B3n-Aprendizaje%20Federado-7c3aed?style=flat-square" />
 </p>
 
 ## Perfil
 
-Ingeniero de software enfocado en desarrollo backend, sistemas distribuidos, diseño de APIs e investigación aplicada en aprendizaje federado. Construyo servicios orientados a producción con límites claros, arquitectura pragmática, validación automatizada y documentación pensada para operar sistemas con criterio.
+Ingeniero de software full stack con foco en backend, sistemas distribuidos, diseño de APIs e investigación aplicada en aprendizaje federado. Construyo productos y servicios orientados a producción con límites claros, arquitectura pragmática, validación automatizada y documentación pensada para operar sistemas con criterio.
 
-Mi línea técnica actual combina plataformas backend, diseño seguro de servicios y entornos descentralizados de aprendizaje automático, con foco en fiabilidad, mantenibilidad y validación experimental.
+Mi línea técnica actual combina desarrollo full stack, plataformas backend, diseño seguro de servicios y entornos descentralizados de aprendizaje automático, con foco en fiabilidad, mantenibilidad y validación experimental.
 
 ## Stack Tecnológico
 
@@ -97,98 +97,6 @@ Notas del proyecto: [`solidarianid/`](./solidarianid)
 - **Arquitectura de Software:** capas limpias, módulos mantenibles, contratos explícitos y decisiones tecnológicas alineadas con restricciones.
 - **Seguridad:** flujos JWT, configuración de mínimo privilegio, validación de entrada y valores por defecto seguros.
 - **DevOps:** desarrollo basado en Docker, comprobaciones de CI, plantillas de entorno y configuración local reproducible.
-
-## Estructura del Repositorio
-
-```txt
-.
-|-- .github/workflows/      # Ejemplos de CI y automatización del repositorio
-|-- backend/                # Espacio de trabajo backend
-|-- backend-apis/           # Notas y referencias de APIs backend
-|-- docs/                   # Documentación de arquitectura e ingeniería
-|-- finanzas-personales/    # Notas del proyecto Personal Finance Manager
-|-- frontend/               # Espacio de trabajo frontend
-|-- repunet/                # Notas de investigación e implementación de RepuNet
-|-- screenshots/            # Marcadores para capturas y diagramas
-|-- solidarianid/           # Notas del proyecto Solidarianid
-|-- tests/                  # Espacio compartido de validación
-|-- docker-compose.yml
-|-- .env.example
-|-- .gitignore
-|-- LICENSE
-`-- README.md
-```
-
-## Arquitectura
-
-Este repositorio de perfil está organizado como un portafolio técnico, no como una única aplicación. Cada proyecto destacado mantiene su propia documentación, mientras que las referencias compartidas de ingeniería viven en [`docs/`](./docs).
-
-Lectura recomendada:
-
-- [Visión de Arquitectura](./docs/architecture.md)
-- [Portafolio de Proyectos](./docs/projects.md)
-- [Principios de Ingeniería](./docs/engineering-principles.md)
-
-## Configuración Local
-
-Clona el repositorio y revisa el espacio de documentación:
-
-```bash
-git clone https://github.com/isaac1227/isaac1227.git
-cd isaac1227
-```
-
-Crea las variables de entorno locales a partir de la plantilla:
-
-```bash
-cp .env.example .env
-```
-
-Arranca el stack de servicios de ejemplo:
-
-```bash
-docker compose up --build
-```
-
-El archivo de Compose es intencionalmente mínimo y funciona como plantilla de desarrollo para servicios backend, frontend y bases de datos.
-
-## Calidad
-
-Este repositorio incluye un flujo de trabajo de GitHub Actions que valida estructura, referencias Markdown e higiene documental. Las pruebas específicas de cada proyecto pueden añadirse dentro de su directorio de implementación a medida que evolucionen los servicios.
-
-```bash
-python3 -m compileall backend tests
-```
-
-## Actividad en GitHub
-
-Puedes revisar mi actividad técnica directamente desde GitHub:
-
-| Área                 | Enlace                                                                                                   |
-| -------------------- | -------------------------------------------------------------------------------------------------------- |
-| Perfil público       | [github.com/isaac1227](https://github.com/isaac1227)                                                     |
-| Repositorios         | [github.com/isaac1227?tab=repositories](https://github.com/isaac1227?tab=repositories)                   |
-| Actividad reciente   | [github.com/isaac1227?tab=overview](https://github.com/isaac1227?tab=overview)                           |
-| Proyectos destacados | [`finanzas-personales`](./finanzas-personales), [`repunet`](./repunet), [`solidarianid`](./solidarianid) |
-
-## Hoja de Ruta
-
-- Añadir capturas de producción y diagramas de arquitectura por proyecto.
-- Ampliar los reportes experimentales de RepuNet con benchmarks y notas de reproducibilidad.
-- Añadir ejemplos OpenAPI para servicios backend.
-- Publicar entornos de demostración con contenedores para proyectos seleccionados.
-- Añadir notas de diseño de sistemas sobre autenticación, persistencia y coordinación distribuida.
-
-## Contribución
-
-Las issues y pull requests son bienvenidas cuando mejoran la calidad documental, la claridad arquitectónica, la reproducibilidad o la organización del proyecto.
-
-Antes de abrir una pull request:
-
-- Mantener los cambios enfocados y fáciles de revisar.
-- Incluir documentación cuando cambie comportamiento o estructura.
-- Añadir pruebas o pasos de validación para cambios de implementación.
-- Evitar commits con secretos, artefactos generados o archivos locales de entorno.
 
 ## Licencia
 
