@@ -22,11 +22,11 @@
 
 ## Perfil
 
-Ingeniero de software backend y full stack, cómodo trabajando tanto en frontend como en backend. He trabajado en proyectos relacionados con sistemas distribuidos, integración de datos, APIs, seguridad y arquitectura en entornos ágiles.
+Ingeniero de software **backend y full stack**, cómodo trabajando tanto en **frontend** como en **backend**. He trabajado en proyectos relacionados con **sistemas distribuidos**, **integración de datos**, **APIs**, **seguridad** y **arquitectura** en entornos ágiles.
 
-En frontend he trabajado principalmente con React y JavaScript. En backend, sobre todo con Python y FastAPI, desarrollando APIs REST, autenticación JWT, pruebas automatizadas y aplicando principios de clean code y separación de responsabilidades. También trabajo con Docker, PostgreSQL, SQLite y control de versiones con Git, GitLab y GitHub.
+En frontend he trabajado principalmente con **React** y **JavaScript**. En backend, sobre todo con **Python** y **FastAPI**, desarrollando **APIs REST**, **autenticación JWT**, **pruebas automatizadas** y aplicando principios de **clean code** y **separación de responsabilidades**. También trabajo con **Docker**, **PostgreSQL**, **SQLite** y control de versiones con **Git**, **GitLab** y **GitHub**.
 
-Mi experiencia combina desarrollo de producto, despliegue de servicios con Docker y Kubernetes, y una base de investigación donde la reproducibilidad, la validación y la documentación rigurosa son parte central del trabajo. Actualmente busco seguir creciendo técnicamente en backend, arquitectura y tecnologías relacionadas con IA aplicada al software.
+Mi experiencia combina **desarrollo de producto**, despliegue de servicios con **Docker** y **Kubernetes**, y una base de **investigación** donde la **reproducibilidad**, la **validación** y la **documentación rigurosa** son parte central del trabajo. Actualmente busco seguir creciendo técnicamente en **backend**, **arquitectura** y tecnologías relacionadas con **IA aplicada al software**.
 
 ---
 
@@ -54,9 +54,9 @@ Mi experiencia combina desarrollo de producto, despliegue de servicios con Docke
 
 | Proyecto | Stack | Enfoque |
 | --- | --- | --- |
-| **[Personal Finance Manager](./finanzas-personales)** | React · FastAPI · PostgreSQL · Docker | Finanzas personales, autenticación JWT, API REST y visualización de datos. |
-| **[RepuNet](./repunet)** | Python · FastAPI · PyTorch · SQLite · Docker | Reputación descentralizada para aprendizaje federado, mitigación adversarial y validación experimental. |
-| **[Solidarianid](./solidarianid)** | React · NestJS · MongoDB | Plataforma full stack con arquitectura limpia, autenticación JWT, pruebas automatizadas y accesibilidad. |
+| **[Personal Finance Manager](./finanzas-personales)** | React · FastAPI · PostgreSQL · Docker | Finanzas personales, **autenticación JWT**, **API REST** y visualización de datos. |
+| **[RepuNet](./repunet)** | Python · FastAPI · PyTorch · SQLite · Docker | **Reputación descentralizada** para aprendizaje federado, mitigación adversarial y validación experimental. |
+| **[Solidarianid](./solidarianid)** | React · NestJS · MongoDB | Plataforma full stack con **arquitectura limpia**, autenticación JWT, pruebas automatizadas y accesibilidad. |
 
 **Artículo publicado en Computer Networks**
 
